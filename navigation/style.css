@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  --nav-hight: 5rem;
+  --nav-bg: gainsboro;
+  --white: rgb(255, 255, 255);
+  --black: #000;
+}
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0.2rem 1rem;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+}
+nav {
+  height: var(--nav-hight);
+  width: 100%;
+  max-width: 114rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+@media (max-width: 678px) {
+  nav {
+    background: var(--nav-bg);
+  }
+  .nav-item {
+    position: absolute;
+    top: var(--nav-hight);
+    right: 0;
+    height: calc(100% - var(--nav-hight));
+    width: 0;
+    background: var(--nav-bg);
+    text-align: center;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out;
+    -webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    -ms-transition: width 0.5s ease-in-out;
+    -o-transition: width 0.5s ease-in-out;
+  }
+  .nav-item.active {
+    display: block;
+    width: 50%;
+  }
+  .nav-item .nav-link {
+    display: block;
+    margin: 0;
+  }
+  .nav-item .nav-link a {
+    padding: 1rem 0;
+    display: block;
+  }
+  .nav-item .nav-link a:hover {
+    background: var(--white);
+  }
+  .manue-item {
+    width: 3rem;
+    height: 0.3rem;
+    background: var(--white);
+    position: relative;
+  }
+  .manue-mobil {
+    cursor: pointer;
+  }
+  .manue-item {
+    cursor: pointer;
+  }
+  .manue-item::after,
+  .manue-item::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--white);
+    transform-origin: center;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+  }
+  .manue-item::before {
+    top: -0.8rem;
+  }
+  .manue-item::after {
+    top: 0.8rem;
+  }
+  .manue-item.active {
+    background: var(--nav-bg);
+  }
+  .manue-item.active::before {
+    top: 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  }
+  .manue-item.active::after {
+    top: 0;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+  }
+}
