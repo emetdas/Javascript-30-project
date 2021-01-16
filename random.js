@@ -5,6 +5,8 @@ const randomColor = () =>
 document.querySelector(".btn").addEventListener("click", function (e) {
   this.style.backgroundColor = randomColor();
   document.body.style.backgroundColor = randomColor();
+  const box = document.querySelector('.btn-main');
+  
   // event progregation stop this is not good
   //   e.stopPropagation();
 });
