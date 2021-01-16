@@ -6,6 +6,15 @@
 > 2 : Website Preloder
 ✔✔✔ 1/15/2021
 
+> 3 : Popup
+✔✔✔ 1/16/2021
+
+> 4 : Random color ganarator
+✔✔✔ 1/16/2021
+
+> 5 : Somth scroll
+✔✔✔ 1/17/2021
+
 <h2 style="color:red;">Home</h2>
 
 
