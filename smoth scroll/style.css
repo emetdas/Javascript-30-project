@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+nav {
+  max-width: 114rem;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+  align-items: center;
+}
+ul li {
+  display: inline-block;
+  padding: 0 1rem;
+}
+.btn-section-1 {
+  background: rgb(66, 51, 153);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  margin-top: 1rem;
+  display: inline-block;
+  cursor: pointer;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+section:nth-child(even) {
+  background: gainsboro;
+}
