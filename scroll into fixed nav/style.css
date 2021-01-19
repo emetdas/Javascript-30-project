@@ -13,13 +13,21 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 nav {
-  max-width: 114rem;
-  margin: 0 auto;
   width: 100%;
+}
+.container {
+  width: 114rem;
+  height: 60px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  height: 6rem;
   align-items: center;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgb(235, 235, 235);
 }
 ul li {
   display: inline-block;
