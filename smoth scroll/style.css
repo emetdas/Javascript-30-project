@@ -25,6 +25,10 @@ ul li {
   display: inline-block;
   padding: 0 1rem;
 }
+ul li a {
+  font-weight: bold;
+  color: #000;
+}
 .btn-section-1 {
   background: rgb(66, 51, 153);
   color: white;
