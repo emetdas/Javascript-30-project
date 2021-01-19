@@ -15,7 +15,7 @@
 > 5 : Smoth scroll<br>
 ✔✔✔ 1/17-18/2021
 
-> 6 : Fixed Nav<br>
+> 6 : Scroll to Fixed Nav<br>
 ✔✔✔ 1/19/2021
 
 
