@@ -37,11 +37,11 @@ body {
   -moz-transition: transform 0.5s linear;
   -ms-transition: transform 0.5s linear;
   -o-transition: transform 0.5s linear;
-  transform: translateY(-3rem);
-  -webkit-transform: translateY(-3rem);
-  -moz-transform: translateY(-3rem);
-  -ms-transform: translateY(-3rem);
-  -o-transform: translateY(-3rem);
+  transform: translateY(1rem);
+  -webkit-transform: translateY(1rem);
+  -moz-transform: translateY(1rem);
+  -ms-transform: translateY(1rem);
+  -o-transform: translateY(1rem);
 }
 .tab-contant h2 {
   margin: 1rem 0;
@@ -65,4 +65,9 @@ body {
 .tab-btn-active {
   background: rgb(0, 128, 128);
   color: white;
+  transform: translateY(-0.2rem);
+  -webkit-transform: translateY(-0.2rem);
+  -moz-transform: translateY(-0.2rem);
+  -ms-transform: translateY(-0.2rem);
+  -o-transform: translateY(-0.2rem);
 }
