@@ -1,19 +1,53 @@
 *,
 *::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-body{
-    font-size: 1.6rem;
+body {
+  font-size: 1.6rem;
 }
-:root{
-    --heading1:3rem;
-    --heading2:2rem;
-    --heading3:1.6rem;
-    --primary-color:;
+:root {
+  --heading1: 3rem;
+  --heading2: 2rem;
+  --heading3: 1.6rem;
+  --primary-color: rgb(45, 156, 230);
+}
+.tab-container {
+  height: 100vh;
+  width: 114rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tab-contant {
+  display: none;
+  width: 89%;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 0 0.3rem 0.2px gainsboro;
+}
+.tab-contant h2 {
+  margin: 1rem 0;
+  font-size: 2.3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.tab-contant-active {
+  display: block;
+}
+.tab-btn {
+  background: gold;
+  border: none;
+  padding: 0.4rem 1.4rem;
+  margin-right: 1rem;
+}
+.tab-btn-active {
+  background: rgb(0, 128, 128);
+  color: white;
 }
