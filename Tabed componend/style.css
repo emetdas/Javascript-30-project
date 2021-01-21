@@ -32,6 +32,16 @@ body {
   margin: 2rem auto;
   padding: 1rem;
   box-shadow: 0 0 0.3rem 0.2px gainsboro;
+  transition: transform 0.5s linear;
+  -webkit-transition: transform 0.5s linear;
+  -moz-transition: transform 0.5s linear;
+  -ms-transition: transform 0.5s linear;
+  -o-transition: transform 0.5s linear;
+  transform: translateY(-3rem);
+  -webkit-transform: translateY(-3rem);
+  -moz-transform: translateY(-3rem);
+  -ms-transform: translateY(-3rem);
+  -o-transform: translateY(-3rem);
 }
 .tab-contant h2 {
   margin: 1rem 0;
@@ -40,6 +50,11 @@ body {
 }
 .tab-contant-active {
   display: block;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
 }
 .tab-btn {
   background: gold;
