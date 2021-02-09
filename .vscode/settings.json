@@ -1,0 +1,9 @@
+{
+  "files.autoSave": "afterDelay",
+  "launch": {
+    "configurations": [],
+    "compounds": []
+},
+"workbench.settings.useSplitJSON": true,
+"liveServer.settings.multiRootWorkspaceName": "javascript dom project"
+}
