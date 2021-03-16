@@ -1,0 +1,103 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  list-style: none;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  box-sizing: border-box;
+  background: var(--bg);
+}
+
+html {
+  --nav-bg: #363897;
+  --bg: rgb(108, 37, 223);
+}
+
+html[dark-theme="dark"] {
+  --nav-bg: #06072e;
+  --bg: rgb(30, 0, 78);
+}
+html[dark-theme="dark"] * {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.header {
+  background: var(--nav-bg);
+}
+
+nav {
+  max-width: calc(1140px - 2rem);
+  margin: 0 auto;
+  width: calc(100% -2rem);
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.theme {
+  display: none;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  width: 55px;
+  height: 30px;
+  background: white;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  position: relative;
+}
+
+.switch::before {
+  content: "\f185";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  width: 1.8rem;
+  height: 1.8rem;
+  background: #ffffff;
+  color: #fde50e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 0.1rem 0.1rem 1rem rgb(201, 201, 201);
+  transition: left 0.3s ease-in;
+  -webkit-transition: left 0.3s ease-in;
+  -moz-transition: left 0.3s ease-in;
+  -ms-transition: left 0.3s ease-in;
+  -o-transition: left 0.3s ease-in;
+  cursor: pointer;
+}
+.theme:checked + .switch {
+  background: #cacaca;
+}
+.theme:checked + .switch::before {
+  left: 25px;
+  content: "\f186";
+  font-family: "Font Awesome 5 Free";
+  color: rgb(11, 0, 46);
+}
