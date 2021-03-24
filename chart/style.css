@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    box-sizing: border-box;
+}
+/* #myChart{
+    width: 800px !important;
+    height: 400px !important;
+} */
