@@ -12,7 +12,7 @@
   --m-auto: 0 auto;
   --nav-height: 3rem;
   --black: rgb(6, 0, 32);
-  --greay:rgb(255, 255, 255);
+  --greay: rgb(255, 255, 255);
 }
 html {
   scroll-behavior: smooth;
@@ -57,27 +57,40 @@ ul > li {
   top: 0;
   left: 0;
 }
-.home-contant *{
-    z-index: 4;
-    color: var(--greay);
+.home-contant * {
+  z-index: 4;
+  color: var(--greay);
 }
 a {
   text-decoration: none;
 }
-.container{
-    width: var(--max-container);
-    margin: var(--m-auto);
-    margin-top: 2rem;
+.container {
+  width: var(--max-container);
+  margin: var(--m-auto);
+  margin-top: 2rem;
 }
-.contant{
-    width: 60%;
+.contant {
+  width: 60%;
 }
-.img img{
-    width: 300px;
-    height: 300px;
+
+.img img {
+  width: 300px;
+  height: 300px;
 }
-.row{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.fead-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+  -webkit-transition: opacity 0.5s ease-in;
+  -moz-transition: opacity 0.5s ease-in;
+  -ms-transition: opacity 0.5s ease-in;
+  -o-transition: opacity 0.5s ease-in;
+}
+.fead-in.apper{
+    opacity: 1;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: hidden;
 }
