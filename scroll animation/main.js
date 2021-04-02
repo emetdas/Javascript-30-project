@@ -1,5 +1,3 @@
-const contanier = document.querySelectorAll('.container');
-const img = document.querySelector('.img');
 const fead_in = document.querySelectorAll('.fead-in');
 const Callback = function(entris,observer){
    entris.forEach(entry =>{
