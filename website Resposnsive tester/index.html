@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>responsive tester</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<nav>
-    <div class="continer">
-       <li></li>
-       <li></li>
-       <li></li>
-       <li></li>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="continer d-flex">
+        <li class="smartphones"><img src="images/smartphones-couple.svg" alt="responsive tester" /></li>
+        <li class="mobile"><img src="images/mobile.svg" alt="responsive tester" /></li>
+        <li class="tablet"><img src="images/tablet.svg" alt="responsive tester" /></li>
+        <li class="desktop"><img src="images/monitor.svg" alt="responsive tester" /></li>
+        <li class="bigDesktop"><img src="images/responsive.svg" alt="responsive tester" /></li>
+        <div class="input-group">
+            <form onsubmit="return validateForm(e)" method="POST">
+                <input type="text" placeholder="Enter your website url" class="url">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
     </div>
-</nav>
-<div class="continer">
-    <iframe src="" frameborder="0">
-        
-    </iframe>
-</div>
-<script src="main.js"></script>
-</body>
+    </nav>
+    <div class="continer">
+      <iframe src="https://e-learn-01.netlify.app" frameborder="0" class="responsive-tester"> </iframe>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
