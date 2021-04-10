@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.input-group {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input[type="email"] {
+  border: 1px solid silver;
+  outline: none;
+  padding: 0.4rem 0.5rem;
+}
+form{
+    height: 1rem;
+}
+input[type="submit"] {
+  padding: 0.5rem 0.5rem;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  background: hsla(242,88.4%,66.3%,1);
+  color: #fff;
+  cursor: pointer;
+}
+.result{
+    background: rgb(241, 241, 241);
+    padding: 1rem;
+    margin-top: 2rem;
+    left: 0;
+}
+li{
+    list-style-type: none;
+    font-size: 1.1rem;
+    background: rgb(214 214 214);
+    margin: 0.3rem 0;
+    padding: 0.3rem 1.5rem;
+    color: hsl(242deg 92% 16%);
+    font-family: 'Circular-Loom';
+
+}
