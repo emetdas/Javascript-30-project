@@ -14,4 +14,13 @@ https://emailverification.whoisxmlapi.com/api/documentation/making-requests
 
 <!-- best -->
 https://www.codexworld.com/verify-email-address-check-if-real-exists-domain-php/#:~:text=Validate%20email%20in%20PHP%20can,given%20email%20address%20is%20valid.
+
+https://stackoverflow.com/questions/14448649/check-if-email-exist-php/14448789
+
+
+https://www.labnol.org/code/20152-validate-email-address
+
+https://www.mailboxvalidator.com/plans#api
+
+https://www.php.net/manual/en/function.getmxrr.php
 <!-- best -->
