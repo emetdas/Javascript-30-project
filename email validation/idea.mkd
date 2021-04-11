@@ -10,5 +10,6 @@ http://www.developphp.com/video/PHP/Email-Address-Validate-4-Levels-JavaScript-P
 
 https://www.youtube.com/watch?v=JvGFlAK2fg4&ab_channel=DaveHollingworth
 
+https://emailverification.whoisxmlapi.com/api/documentation/making-requests
 
 
