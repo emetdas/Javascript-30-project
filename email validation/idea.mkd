@@ -12,4 +12,6 @@ https://www.youtube.com/watch?v=JvGFlAK2fg4&ab_channel=DaveHollingworth
 
 https://emailverification.whoisxmlapi.com/api/documentation/making-requests
 
-
+<!-- best -->
+https://www.codexworld.com/verify-email-address-check-if-real-exists-domain-php/#:~:text=Validate%20email%20in%20PHP%20can,given%20email%20address%20is%20valid.
+<!-- best -->
