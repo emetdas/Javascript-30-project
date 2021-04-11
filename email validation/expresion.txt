@@ -1,0 +1,11 @@
+1            @  2           3               4
+(Your Name)  @  (domain)  .  (extension)  .   (agin) 
+
+
+1. any letters,number,dot and hyphens
+2. any letters,number or hyphens
+3. andy letters
+4. a dot then any letters
+
+
+regular expesion =/^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]{2,8})?/;
