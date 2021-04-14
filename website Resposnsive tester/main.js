@@ -1,3 +1,6 @@
+document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+}, false);
 var iframe = document.querySelector(".responsive-tester");
 var smartphones = document.querySelector(".smartphones");
 var mobile = document.querySelector(".mobile");
