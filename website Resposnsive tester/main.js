@@ -15,8 +15,12 @@ function validateForm(e) {
     // } else {
     //     url = UrlIframe;
     // }
-    url = UrlIframe;
+    // url = UrlIframe;
+    function url(){
+    iframe.src = url;
+    }
 }
+
 smartphones.addEventListener("click", (e) => {
     iframe.style.width = "300px";
     iframe.style.height = "400px";
