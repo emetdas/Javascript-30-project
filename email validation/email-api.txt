@@ -1,0 +1,14 @@
+https://emailverification.whoisxmlapi.com/api/documentation/output-format
+
+
+https://emailverification.whoisxmlapi.com/api
+
+https://stackoverflow.com/questions/46155/how-to-validate-an-email-address-in-javascript?page=2&tab=active#tab-top
+
+https://www.npmjs.com/package/email-validator
+
+
+
+
+
+
