@@ -32,8 +32,9 @@ bigDesktop.addEventListener("click", () => {
 // device_responsive_sizer-tester-end
 // Test-any-website-start
 let form = document.querySelector('.form-responsive-tester');
-form.addEventListener('submit',()=>{
-
+form.addEventListener('submit',(e)=>{
+    e.preventDefault();
+    let input = document.querySelector('.url');
 });
 // Test-any-website-end
 
