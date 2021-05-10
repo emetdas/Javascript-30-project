@@ -11,10 +11,10 @@ var bigDesktop = document.querySelector(".bigDesktop");
 // device_responsive_sizer-tester-start
 smartphones.addEventListener("click", (e) => {
     iframe.style.width = "300px";
-    iframe.style.height = "400px";
+    iframe.style.height = "380px";
 });
 mobile.addEventListener("click", (e) => {
-    iframe.style.width = "600px";
+    iframe.style.width = "640px";
     iframe.style.height = "500px";
 });
 tablet.addEventListener("click", () => {
@@ -40,11 +40,10 @@ form.addEventListener('submit',(e)=>{
     var match = input.match(RegExp);
     console.log(match);
     if (match === null) {
-        var frames = window.frames;
-        frames[0].location = "https://e-learn-01.netlify.app";
+        window.frames[0].location = "https://e-learn-01.netlify.app";
         return false;
     }
-    if (match ||input !== null) {
+    if (match ||input !== null || match !== null) {
         window.frames[0].location = input;
     }
 
