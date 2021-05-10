@@ -55,7 +55,7 @@ li img {
 .input-group{
   height: 2.5rem;
 }
-.input-group input[type="text"]{
+.input-group input[type="url"]{
   height: 2.5rem;
   padding: 0 0.5rem;
   border: 0.1rem solid gainsboro;
