@@ -39,10 +39,13 @@ form.addEventListener('submit',(e)=>{
 
     var match = input.match(RegExp);
     console.log(match);
+    if (match === null) {
+        var frames = window.frames;
+        frames[0].location = "https://e-learn-01.netlify.app";
+        return false;
+    }
     if (match ||input !== null) {
         window.frames[0].location = input;
-    }else{
-        return false;
     }
 
 });
