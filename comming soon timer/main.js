@@ -12,6 +12,6 @@ function updateCounter() {
   let d = Math.floor(diff / 1000 / 60 / 60 / 24);
   let h = Math.floor((diff / 1000 / 60 / 60) % 24);
   let m = Math.floor((diff / 1000 / 60) % 60);
-  let s = Math.floor((diff / 1000 / 60 / 60) % 60);
+  let s = Math.floor((diff / 1000) % 60);
 }
 updateCounter();
