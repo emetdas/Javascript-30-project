@@ -9,17 +9,17 @@
 body{
     font-family: 'Rubik', sans-serif;
 }
-/* loder add */
-.loder{
+/* loader add */
+.loader{
     width: 100%;
     height: 100vh;
     position: fixed;
     background: #fff;
 }
-.loder-icon{
-    
+.loader-icon{
+
 }
-/* loder add */
+/* loader add */
 /* container css start */
 .container{
     width: 100%;
