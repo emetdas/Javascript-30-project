@@ -93,7 +93,11 @@ body{
     font-size: 2.3rem;
 }
 /* container css end */
-
+@media (max-width:470px){
+    .timer-box{
+        flex-direction: column;
+    }
+}
 
 
 
