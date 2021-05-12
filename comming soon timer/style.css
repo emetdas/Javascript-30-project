@@ -76,12 +76,21 @@ body{
     font-size: 4rem;
 }
 .timer-box{
+    margin-top: 2rem;
     display: flex;
     gap: 3rem;
 }
-.timer-box *{
+.timer-box .box{
+    text-align: center;
+    background: #5d19fc;
+    padding: 1rem;
+}
+.timer-box h2{
     font-size: 3rem;
     text-shadow: 0 0 0.2rem rgb(247, 247, 247);
+}
+.timer-box span{
+    font-size: 2.3rem;
 }
 /* container css end */
 
