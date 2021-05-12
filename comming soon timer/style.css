@@ -20,6 +20,17 @@ body{
     align-items: center;
 }
 .loader-icon{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-bottom: 0.3rem solid rgb(96, 94, 243);
+    border-top: 0.3rem solid transparent;
+    border-right: 0.3rem solid transparent;
+    border-left: 0.3rem solid transparent;
     
 }
 /* loader add */
