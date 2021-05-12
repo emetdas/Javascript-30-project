@@ -21,6 +21,7 @@ body{
 }
 .timer-box{
     display: flex;
+    gap: 3rem;
 }
 /* container css end */
 
