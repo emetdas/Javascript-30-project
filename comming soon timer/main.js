@@ -21,4 +21,4 @@ function updateCounter() {
   minutes.innerHTML = m;
   second.innerHTML = s;
 }
-updateCounter();
+setInterval (updateCounter(),1000);
