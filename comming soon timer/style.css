@@ -23,6 +23,9 @@ body{
     display: flex;
     gap: 3rem;
 }
+.timer-box *{
+    font-size: 3rem;
+}
 /* container css end */
 
 
