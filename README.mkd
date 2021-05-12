@@ -1,6 +1,6 @@
 **#Javascript Project**
 1. Respnsive Navigation
-2. second
+2. Open Popup
 3. third
 
 
