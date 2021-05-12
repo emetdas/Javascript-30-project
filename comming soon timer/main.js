@@ -10,5 +10,7 @@ function updateCounter() {
   let currentTime = new Date();
   let diff = newYearTime - currentTime;
   let d = Math.floor(diff / 1000 / 60 / 60 / 24);
+  let h = Math.floor((diff / 1000 / 60 / 60) % 24);
+  let s = Math.floor((diff / 1000 / 60 / 60 / 60) % 60);
 }
 updateCounter();
