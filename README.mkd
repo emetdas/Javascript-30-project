@@ -4,6 +4,7 @@
 3. Chart js
 4. Dark and Light Mode
 5. Preloader
+6. Print Page
 
 
 
