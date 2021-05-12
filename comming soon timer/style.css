@@ -20,7 +20,7 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-.year{
+.heading{
     font-size: 5rem;
 }
 .timer-box{
