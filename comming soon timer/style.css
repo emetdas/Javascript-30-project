@@ -15,9 +15,12 @@ body{
     height: 100vh;
     position: fixed;
     background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .loader-icon{
-
+    
 }
 /* loader add */
 /* container css start */
