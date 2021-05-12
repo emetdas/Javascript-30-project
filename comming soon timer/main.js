@@ -3,7 +3,8 @@ let day = document.querySelector('.day');
 let hour = document.querySelector('.hour');
 let second = document.querySelector('.second');
 
-let newYearTime = new Date('january 01 2022 00:00:00'); 
+let currentYear = new Date().getFullYear();
+let newYearTime = new Date(`january 01 ${currentYear + 1} 00:00:00`); 
 
 
 
