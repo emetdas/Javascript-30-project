@@ -19,6 +19,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.loader.add{
+    
+}
 .loader-icon{
     width: 4rem;
     height: 4rem;
@@ -31,7 +34,24 @@ body{
     border-top: 0.3rem solid transparent;
     border-right: 0.3rem solid transparent;
     border-left: 0.3rem solid transparent;
-    
+    animation: loader 0.5s linear infinite;
+    -webkit-animation: loader 0.5s linear infinite;
+}
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(350deg);
+        -webkit-transform: rotate(350deg);
+        -moz-transform: rotate(350deg);
+        -ms-transform: rotate(350deg);
+        -o-transform: rotate(350deg);
+}
 }
 /* loader add */
 /* container css start */
