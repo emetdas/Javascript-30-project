@@ -1,3 +1,9 @@
+let lodaer = document.querySelector('.loader');
+setTimeout(()=>{
+    lodaer.classList.add('active');
+},1000);
+
+
 let heading = document.querySelector('.heading');
 let year = document.querySelector('.year');
 let day = document.querySelector('.day');
