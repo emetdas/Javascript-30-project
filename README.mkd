@@ -1,4 +1,4 @@
-**#Javascript Project**
+**Javascript Project**
 1. Respnsive Navigation
 2. Open Popup
 3. Chart js
