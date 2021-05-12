@@ -15,6 +15,9 @@ body{
     height: 100vh;
     background: rgb(96, 94, 243);
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* container css end */
 
