@@ -21,7 +21,7 @@ body{
     flex-direction: column;
 }
 .heading{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 .timer-box{
     display: flex;
