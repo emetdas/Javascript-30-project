@@ -10,7 +10,9 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 /* container css start */
-
+.container{
+    background: red;
+}
 /* container css end */
 
 
