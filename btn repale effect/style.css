@@ -5,6 +5,10 @@
 }
 body{
     font-size: 62.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 .btn{
     font-size: 1rem;
