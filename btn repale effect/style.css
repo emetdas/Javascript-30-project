@@ -18,13 +18,14 @@ body{
     border-radius: 1rem;
     color: white;
     font-weight: 600;
-    background-image: linear-gradient(to right,#3e1ef3 50%,#472ce6);
+    background-image: linear-gradient(83deg,#8a78ec 50%,#526ed6);
     cursor: pointer;
     position: relative;
+    overflow: hidden;
 }
 .ripple{
     position: absolute;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     transform: translate(-50%,-50%);
     pointer-events: none;
     border-radius: 50%;
@@ -34,9 +35,11 @@ body{
     0%{
         width: 0;
         height: 0;
+        opacity: 0.5;
     }    
     100%{
-        width: 5rem;
-        height: 5rem;
+        width: 17rem;
+        height: 17rem;
+        opacity: 0;
     }
 }

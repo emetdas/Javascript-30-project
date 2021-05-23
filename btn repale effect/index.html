@@ -14,7 +14,7 @@
 
 <script>
     let btn = document.querySelector('.btn');
-    document.addEventListener('click',(e)=>{
+    btn.addEventListener('click',(e)=>{
         console.log(e);
         const x = e.clientX - e.target.offsetLeft;
         const y = e.clientY - e.target.offsetTop;
@@ -25,7 +25,7 @@
         Ripples.style.top = y + 'px';
         btn.appendChild(Ripples);
 
-        setTimeout(Ripples.remove(),1000)
+        setTimeout(()=> Ripples.remove(),1000);
     });
 </script>
 </body>
