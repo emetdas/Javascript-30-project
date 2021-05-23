@@ -10,6 +10,9 @@ body{
     align-items: center;
     height: 100vh;
 }
+h2{
+    font-size: 3rem;
+}
 .btn{
     font-size: 1rem;
     padding: 0.4rem 1.4rem;
