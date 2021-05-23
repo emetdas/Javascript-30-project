@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>btn Repeal effect</title>
+    <title>btn Ripple effect</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,7 +13,20 @@
     </div>
 
 <script>
-    
+    let btn = document.querySelector('.btn');
+    document.addEventListener('click',(e)=>{
+        console.log(e);
+        const x = e.clientX - e.target.offsetLeft;
+        const y = e.clientY - e.target.offsetTop;
+        console.log(x,y);
+        const Ripples = document.createElement('span');
+        Ripples.classList.add('ripple')
+        Ripples.style.left = x + 'px';
+        Ripples.style.top = y + 'px';
+        btn.appendChild(Ripples);
+
+        setTimeout(Ripples.remove(),1000)
+    });
 </script>
 </body>
 </html>
