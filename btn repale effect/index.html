@@ -16,10 +16,10 @@
 <script>
     let btn = document.querySelector('.btn');
     btn.addEventListener('click',(e)=>{
-        console.log(e);
+
         const x = e.clientX - e.target.offsetLeft;
         const y = e.clientY - e.target.offsetTop;
-        console.log(x,y);
+  
         const Ripples = document.createElement('span');
         Ripples.classList.add('ripple')
         Ripples.style.left = x + 'px';
