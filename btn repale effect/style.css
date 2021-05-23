@@ -14,4 +14,8 @@ body{
     font-size: 1rem;
     padding: 0.4rem 1.4rem;
     outline: none;
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    background-image: linear-gradient(to right,red,green);
 }
