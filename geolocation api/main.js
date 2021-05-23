@@ -1,3 +1,1 @@
-navigator.geolocation(()=>{
-
-});
+navigator.geolocation.getCurrentPosition()
