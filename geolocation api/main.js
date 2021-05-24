@@ -4,7 +4,7 @@ if (navigator.geolocation) {
       console.log(position);
       const { latitude } = position.coords;
       const { longitude } = position.coords;
-      console.log(latitude,longitude);
+
       var value = `https://www.google.com/maps/@${latitude},${longitude}`;
       var inputLocation = document.querySelector('.input-control');
 
