@@ -40,5 +40,6 @@ h2{
     background: gainsboro;
     color: rgb(91, 64, 243);
     cursor: pointer;
+    font-weight: bold;
 }
 
