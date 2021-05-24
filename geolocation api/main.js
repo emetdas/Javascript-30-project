@@ -21,7 +21,7 @@ btn.addEventListener('click',()=>{
   inputLocation.select();
   inputLocation.setSelectionRange(0, 99999)
   document.execCommand("copy");
-  alert("Copied the text: " + inputLocation.value);
+  alert("Copied");
 });
 
 
