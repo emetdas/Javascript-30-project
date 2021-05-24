@@ -17,14 +17,19 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
+    background: rgb(78, 80, 230);
 }
 
 h2{
     margin-bottom: 0.4rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 .container{
     padding: 2rem;
     box-shadow: 0 0 0.2rem rgb(136, 136, 136);
+    background: white;
 }
 .form-control{
     background: gainsboro;
@@ -35,6 +40,9 @@ h2{
     outline: none;
     border: 0.1rem solid gainsboro;
     padding: 0.5rem 0.5rem;
+}
+.fa-map-marker-alt{
+    color: green;
 }
 .copy{
     background: gainsboro;
