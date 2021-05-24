@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
+
 *,
 *::after,
 *::before{
@@ -5,7 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Padauk', sans-serif;
+}
 body{
+    font-family: 'Padauk', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,12 +20,25 @@ body{
 }
 
 h2{
-    margin-bottom: 1rem;
+    margin-bottom: 0.4rem;
 }
 .container{
     padding: 2rem;
     box-shadow: 0 0 0.2rem rgb(136, 136, 136);
 }
-
-
+.form-control{
+    background: gainsboro;
+    display: flex;
+}
+.form-control * {
+    font-size: 1rem;
+    outline: none;
+    border: 0.1rem solid gainsboro;
+    padding: 0.5rem 0.5rem;
+}
+.copy{
+    background: gainsboro;
+    color: rgb(91, 64, 243);
+    cursor: pointer;
+}
 
