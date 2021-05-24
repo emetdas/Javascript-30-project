@@ -1,8 +1,8 @@
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(
     function (position) {
-      const { latitude } = position.coords;
-      const { longitude } = position.coords;
+      var { latitude } = position.coords;
+      var { longitude } = position.coords;
 
       var value = `https://www.google.com/maps/@${latitude},${longitude}`;
       var inputLocation = document.querySelector('.input-control');
@@ -23,6 +23,7 @@ btn.addEventListener('click',()=>{
   document.execCommand("copy");
   alert("Copied");
 });
+
 
 
 
