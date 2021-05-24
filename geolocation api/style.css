@@ -12,3 +12,14 @@ body{
     flex-direction: column;
     height: 100vh;
 }
+
+h2{
+    margin-bottom: 1rem;
+}
+.container{
+    padding: 2rem;
+    box-shadow: 0 0 0.2rem rgb(136, 136, 136);
+}
+
+
+
