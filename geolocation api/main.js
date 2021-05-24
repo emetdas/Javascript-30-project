@@ -1,7 +1,6 @@
 if (navigator.geolocation) {
   navigator.geolocation.getCurrentPosition(
     function (position) {
-      console.log(position);
       const { latitude } = position.coords;
       const { longitude } = position.coords;
 
