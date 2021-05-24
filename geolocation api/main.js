@@ -5,10 +5,21 @@ if (navigator.geolocation) {
       const { latitude } = position.coords;
       const { longitude } = position.coords;
       console.log(latitude,longitude);
-      console.log(`https://www.google.com/maps/@${latitude},${longitude}`);
+      var value = `https://www.google.com/maps/@${latitude},${longitude}`;
+      var inputLocation = document.querySelector('.input-control');
+
+      inputLocation.value = value;
     },
     function () {
       alert('Could not get your position');
     }
   );
 }
+
+
+
+
+
+
+
+
