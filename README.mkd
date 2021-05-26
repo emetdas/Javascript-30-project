@@ -12,8 +12,8 @@
 11. Tabed Componend
 12. User Online Offline
 13. Website Responsive Tester
-14. 
-15.
+14. Scroll into Fixed Nav
+15. Geolocation Api
 16.
 17.
 18.
