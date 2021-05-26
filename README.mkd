@@ -7,8 +7,8 @@
 6. Print Page
 7. Button Repale Effect
 8. Product Filter
-9. 
-10.
+9. Random Color Ganarator
+10. 
 11.
 12.
 13.
