@@ -5,7 +5,20 @@
 4. Dark and Light Mode
 5. Preloader
 6. Print Page
-
+7. Button Repale Effect
+8. 
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
 
 
 
