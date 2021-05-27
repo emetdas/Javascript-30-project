@@ -5,61 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      .maps{
+        width: 100%;
+        height: 500px;
+      }
+    </style>
   </head>
   <body>
-      <div id="demo"></div>
-    <div id="mapholder"></div>
-
-    <iframe src="http://maps.google.com/maps?q=25.3076008,51.4803216&z=16&output=embed" height="450" width="600"></iframe>
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyCVS7zEc2BQT-hlVsYc6Mkgv3JF2Y5q6wc&sensor=false"></script>
+    <iframe src="" class="maps"></iframe>
     <script>
         var x=document.getElementById("demo");
         function getLocation()
           {
           if (navigator.geolocation)
             {
-            navigator.geolocation.getCurrentPosition(showPosition,showError);
+            navigator.geolocation.getCurrentPosition(showPosition);
             }
-          else{x.innerHTML="Geolocation is not supported by this browser.";}
           }
         
         function showPosition(position)
           {
           var lat=position.coords.latitude;
           var lon=position.coords.longitude;
-          var latlon=new google.maps.LatLng(lat, lon)
-          var mapholder=document.getElementById('mapholder')
-          mapholder.style.height='450px';
-          mapholder.style.width='100%';
-          var myOptions={
-          center:latlon,zoom:19,
-          mapTypeId: 'satellite',
-          // disableDefaultUI: true,
-          // mapTypeId:google.maps.MapTypeId.satellite,
-          mapTypeControl:false,
-          navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
-          };
-          var map=new google.maps.Map(document.getElementById("mapholder"),myOptions);
-          var marker=new google.maps.Marker({position:latlon,map:map,title:"You are here!"});
-          }
-        
-        function showError(error)
-          {
-          switch(error.code) 
-            {
-            case error.PERMISSION_DENIED:
-              x.innerHTML="User denied the request for Geolocation."
-              break;
-            case error.POSITION_UNAVAILABLE:
-              x.innerHTML="Location information is unavailable."
-              break;
-            case error.TIMEOUT:
-              x.innerHTML="The request to get user location timed out."
-              break;
-            case error.UNKNOWN_ERROR:
-              x.innerHTML="An unknown error occurred."
-              break;
-            }
+          window.frames[0].location = `http://maps.google.com/maps?q=${lat},${lon}&z=16&output=embed`;
           }
           getLocation();
         </script>
