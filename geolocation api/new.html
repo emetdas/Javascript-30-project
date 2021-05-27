@@ -30,10 +30,10 @@
           var mapholder=document.getElementById('mapholder')
           mapholder.style.height='250px';
           mapholder.style.width='100%';
-        
           var myOptions={
           center:latlon,zoom:14,
-          mapTypeId:google.maps.MapTypeId.ROADMAP,
+          mapTypeId: 'satellite',
+        //   mapTypeId:google.maps.MapTypeId.ROADMAP,
           mapTypeControl:false,
           navigationControlOptions:{style:google.maps.NavigationControlStyle.SMALL}
           };
