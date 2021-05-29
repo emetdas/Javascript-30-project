@@ -23,6 +23,9 @@ li{
     display: inline-block;
     margin-right: 0.5rem;
 }
+li>a{
+    font-weight: bold;
+}
 
 section{
     height: 100vh;
