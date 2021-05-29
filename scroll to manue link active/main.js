@@ -9,7 +9,8 @@ window.addEventListener('scroll', () => {
     const sectionId = current.getAttribute('id');
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-
+        const active = document.querySelector('nav a[href*='+ sectionId+']');
+        active.classList.add('active');
     }
   });
 });
