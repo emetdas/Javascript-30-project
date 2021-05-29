@@ -23,8 +23,13 @@ li{
     display: inline-block;
     margin-right: 0.5rem;
 }
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
 li>a{
     font-weight: bold;
+    color: #333;
 }
 
 section{
