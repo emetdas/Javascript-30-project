@@ -78,7 +78,6 @@ section{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-            
 }
 section:nth-child(even){
     background: rgb(240, 239, 239);
