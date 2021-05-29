@@ -12,5 +12,8 @@ window.addEventListener('scroll', () => {
         const active = document.querySelector('nav a[href*='+ sectionId+']');
         active.classList.add('active');
     }
+    else{
+        active.classList.remove('active');
+    }
   });
 });
