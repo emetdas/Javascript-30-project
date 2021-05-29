@@ -7,8 +7,7 @@ window.addEventListener('scroll', () => {
     const sectionHeight = current.offsetHeight;
     const sectionTop = current.offsetTop - 50;
     const sectionId = current.getAttribute('id');
-    console.log(sectionId);
-
+    
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
         document.querySelector('nav a[href*='+ sectionId+']').classList.add('active');
     }

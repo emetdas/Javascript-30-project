@@ -14,8 +14,11 @@ body{
 header {
     width: 100%;
 }
-header nav{
+.container{
+    width: 1140px;
     margin: 0 auto;
+}
+header nav{
     position: fixed;
 }
 header nav{
@@ -50,6 +53,7 @@ li>a{
     background: #333;
     bottom: 0;
     left: 50%;
+    border-radius: 50%;
 }
 section{
     height: 100vh;
