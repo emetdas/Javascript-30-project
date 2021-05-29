@@ -17,11 +17,6 @@ header{
     box-shadow: 0 0.1rem 0.1rem whitesmoke;
     position: fixed;
 }
-/* .container{
-    width: 1140px;
-    margin: 0 auto;
-    height: 60px;
-} */
 header nav{
     height: 60px;
     width: 1140px;
