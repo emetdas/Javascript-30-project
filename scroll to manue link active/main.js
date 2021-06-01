@@ -9,10 +9,13 @@ window.addEventListener('scroll', () => {
     const sectionId = current.getAttribute('id');
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-        document.querySelector('nav a[href*='+ sectionId+']').classList.add('active');
-    }
-    else{
-        document.querySelector('nav a[href*='+ sectionId+']').classList.remove('active');
+      document
+        .querySelector('nav a[href*=' + sectionId + ']')
+        .classList.add('active');
+    } else {
+      document
+        .querySelector('nav a[href*=' + sectionId + ']')
+        .classList.remove('active');
     }
   });
 });
