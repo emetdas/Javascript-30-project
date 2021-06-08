@@ -1,5 +1,3 @@
 # Create own Live Code editor
 [Resource-1:--](https://enlight.nyc/projects/code-editor)
-[Resource-2:--](https://enlight.nyc/projects/code-editor)
-1:
-2:https://reactgo.com/build-your-own-html-editor/
+[Resource-2:--](https://reactgo.com/build-your-own-html-editor/)
