@@ -34,4 +34,8 @@ function compiler() {
   );
   result.close();
 }
-compiler();
+
+var run = document.querySelector('.run');
+run.addEventListener('click',()=>{
+    compiler();
+})
