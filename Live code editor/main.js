@@ -34,3 +34,4 @@ function compiler() {
   );
   result.close();
 }
+compiler();
