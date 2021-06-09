@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,8 +6,9 @@
 }
 
 body {
-  /* background: #002240; */
-  background: #0e4ea3;
+font-family: 'Poppins', sans-serif;
+  /* background: #002240;
+  background: #0e4ea3; */
 }
 :root {
   --primary: #002240;
@@ -25,7 +27,10 @@ body {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   width: 100%;
-  gap: 3rem;
+  gap: 1rem;
+}
+h2{
+    margin: 1rem 0;
 }
 #html,
 #css,
@@ -34,16 +39,13 @@ body {
 }
 #html {
   width: 100%;
-  padding: 1rem 0;
 }
 
 #css {
   width: 100%;
-  padding: 1rem 0;
 }
 #js {
   width: 100%;
-  padding: 1rem 0;
 }
 
 #result {
