@@ -10,18 +10,20 @@
   <body>
     <div class="container">
       <form class="form">
-        <textarea name="" id="extractor"></textarea>
+        <textarea name="" id="extractor" placeholder="Email Extract"></textarea>
         <div class="input-container">
           <button type="submit" id="submit">Extract Email</button>
         </div>
       </form>
       <div class="output-container">
+        <h3 class="total"></h3>
         <ul class="output"></ul>
       </div>
     </div>
     <script>
       let extractor = document.querySelector('#extractor');
       let form = document.querySelector('.form');
+      let container = document.querySelector('.container');
       form.addEventListener('submit', (e) => {
         e.preventDefault();
         let email = extractor.value;
@@ -32,6 +34,9 @@
         }
         var word = extractEmails(email);
         let emails = [...new Set(word)];
+        document.querySelector(
+          '.total'
+        ).innerText = `Total Email ${emails.length}`;
         emails.map((email) => {
           document.querySelector('.output').innerHTML += `<li>${email}</li>`;
         });
