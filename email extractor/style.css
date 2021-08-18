@@ -36,7 +36,9 @@ body {
   margin-top: 1rem;
 }
 #extractor {
-  width: 50%;
-  height: 30rem;
+  height: 25rem;
   resize: none;
+  outline: none;
+  border: 0.1rem solid var(--gray);
+  padding: 0.4rem;
 }
