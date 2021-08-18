@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Extractor</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <textarea name="" id="extractor"></textarea>
+        <button type="submit" id="submit">Extract Email</button>
+      </form>
+      <div class="output-container">
+        <ul class="output"></ul>
+      </div>
+    </div>
+    <script>
+      let extractor = document.querySelector('#extractor');
+      let form = document.querySelector('.form');
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        let email = extractor.value;
+        function extractEmails(value) {
+          return value.match(
+            /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi
+          );
+        }
+        var word = extractEmails(email);
+        let emails = [...new Set(word)];
+        emails.map((email) => {
+          document.querySelector('.output').innerHTML += `<li>${email}</li>`;
+        });
+        form.reset();
+      });
+    </script>
+  </body>
+</html>
