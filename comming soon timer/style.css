@@ -1,127 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700;800&display=swap');
 *,
 *::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Rubik', sans-serif;
+body {
+  font-family: 'Rubik', sans-serif;
 }
 /* loader add */
-.loader{
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.loader {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.loader.active{
-    opacity: 0;
-    visibility: hidden;
-    display: none;
-    transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
+.loader.active {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  transition: all 0.5s ease-in-out;
 }
-.loader-icon{
-    width: 4rem;
-    height: 4rem;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-bottom: 0.3rem solid rgb(96, 94, 243);
-    border-top: 0.3rem solid transparent;
-    border-right: 0.3rem solid transparent;
-    border-left: 0.3rem solid transparent;
-    animation: loader 0.5s linear infinite;
-    -webkit-animation: loader 0.5s linear infinite;
+.loader-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border-bottom: 0.3rem solid rgb(96, 94, 243);
+  border-top: 0.3rem solid transparent;
+  border-right: 0.3rem solid transparent;
+  border-left: 0.3rem solid transparent;
+  animation: loader 0.5s linear infinite;
 }
 @keyframes loader {
-    0%{
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-    }
-    100%{
-        transform: rotate(350deg);
-        -webkit-transform: rotate(350deg);
-        -moz-transform: rotate(350deg);
-        -ms-transform: rotate(350deg);
-        -o-transform: rotate(350deg);
-}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(350deg);
+  }
 }
 /* loader add */
 /* container css start */
-.container{
-    padding: 2rem;
-    width: 100%;
-    height: 100vh;
-    background: rgb(96, 94, 243);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.container {
+  padding: 2rem;
+  width: 100%;
+  height: 100vh;
+  background: rgb(96, 94, 243);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-.heading{
-    font-size: 4rem;
+.heading {
+  font-size: 4rem;
 }
-.timer-box{
-    margin-top: 2rem;
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
+.timer-box {
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
-.timer-box .box{
-    text-align: center;
-    background: #5d19fc;
-    padding: 1rem;
+.timer-box .box {
+  text-align: center;
+  background: #5d19fc;
+  padding: 1rem;
+  border-radius: 0.24rem;
 }
-.timer-box h2{
-    font-size: 3rem;
-    text-shadow: 0 0 0.2rem rgb(247, 247, 247);
+.timer-box h2 {
+  font-size: 3rem;
+  text-shadow: 0 0 0.1rem rgb(247, 247, 247);
 }
-.timer-box span{
-    font-size: 2.3rem;
+.timer-box span {
+  font-size: 2.3rem;
+  font-weight: bold;
 }
 /* container css end */
-@media (max-width:470px){
-    .heading{
-        font-size: 2.4rem;
-        margin-top: 4rem;
-    }
-    .container{
-        height: 100%;
-        padding-bottom: 2rem;
-    }
-    .timer-box{
-        flex-direction: column;
-    }
+@media (max-width: 470px) {
+  .heading {
+    font-size: 2.4rem;
+    margin-top: 4rem;
+  }
+  .container {
+    height: 100%;
+    padding-bottom: 2rem;
+  }
+  .timer-box {
+    flex-direction: column;
+  }
 }
-@media (max-width:820px) {
-    .container{
-        width: 100%;
-        height: 100%;
-    }
+@media (max-width: 820px) {
+  .container {
+    width: 100%;
+    height: 100%;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
