@@ -12,7 +12,6 @@ let last_clone = slider.insertAdjacentHTML('beforeend', slide[0].outerHTML);
 
 let index = 1;
 let slider_length = slide.length + 2;
-// let slider_length = slide.length;
 console.log(slider_length);
 slider.style.width = `${(slide.length + 2) * 100}vw`;
 let slider_width = slide[0].clientWidth;
