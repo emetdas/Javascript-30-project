@@ -1,0 +1,53 @@
+*,
+*:before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.slider-container {
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.slider {
+  height: 100vh;
+  display: flex;
+}
+.slide {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+.slide img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3.5rem;
+  height: 3.5rem;
+  text-align: center;
+  line-height: 3.5rem;
+  background: white;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 10;
+}
+ion-icon {
+  color: rgb(93, 77, 235);
+}
+.btn-left {
+  margin-left: 2rem;
+}
+.btn-right {
+  right: 2rem;
+}
