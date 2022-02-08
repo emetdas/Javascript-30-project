@@ -55,7 +55,7 @@ btn_left.addEventListener('click', () => {
 //   }
 //   if (index === 0) {
 //     setTimeout(() => {
-//       index = slider_length - 2;
+//       index = slider_length - 1;
 //       slider.style.transition = 'none';
 //       slider.style.transform = `translateX(${-slider_width * index}px)`;
 //     }, 300);
