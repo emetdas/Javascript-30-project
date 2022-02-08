@@ -20,11 +20,11 @@ slider.style.transform = `translateX(${-slider_width}px)`;
 console.log(slide);
 btn_right.addEventListener('click', () => {
   if (index === slider_length - 1) {
-    setTimeout(() => {
+    // setTimeout(() => {
       index = 1;
       slider.style.transition = 'none';
       slider.style.transform = `translateX(${-slider_width}px)`;
-    }, 300);
+    // }, 300);
   } else {
     index++;
     slider.style.transform = `translateX(${-slider_width * index}px)`;
@@ -34,11 +34,11 @@ btn_right.addEventListener('click', () => {
 
 btn_left.addEventListener('click', () => {
   if (index === 0) {
-    setTimeout(() => {
+    // setTimeout(() => {
       index = slider_length - 2;
       slider.style.transition = 'none';
       slider.style.transform = `translateX(${-slider_width * index}px)`;
-    }, 300);
+    // }, 300);
   } else {
     index--;
     slider.style.transform = `translateX(${-slider_width * index}px)`;
