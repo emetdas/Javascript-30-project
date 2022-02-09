@@ -45,6 +45,7 @@ btn_left.addEventListener('click', () => {
     slider.style.transition = 'transform 0.5s ease-in-out';
   }
 });
+
 // slider.addEventListener('transitionend', () => {
 //   if (index === slider_length - 1) {
 //     setTimeout(() => {
